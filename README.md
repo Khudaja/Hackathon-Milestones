@@ -1,6 +1,6 @@
-# Static Resume Builder
+# Resume Builder
 
-This project is a **Static Resume Builder** created using HTML, CSS, and TypeScript. It allows users to fill in their personal information, education, experience, and skills to generate a resume dynamically. An additional feature includes a toggle button that hides/unhides additional skills.
+This project is a **Resume Builder** created using HTML, CSS, and TypeScript. It allows users to fill in their personal information, education, experience, and skills to generate a resume dynamically. An additional feature includes a toggle button that hides/unhides additional skills.
 
 ## Features
 - **Dynamic Resume Generation**: Users can input their details, and the resume is generated dynamically in the browser.
