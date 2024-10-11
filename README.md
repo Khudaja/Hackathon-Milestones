@@ -2,7 +2,7 @@
 This repository contains multiple resume builder projects that demonstrate different approaches to generating resumes dynamically. Each builder provides a unique feature set ranging from static, editable, dynamic, and shareable resume options.
 
  ## Projects Included
-▪Editable Resume Builder:
+### Editable Resume Builder:
 This resume builder allows users to generate a resume dynamically and directly edit it on the webpage. 
 
 ▪Dynamic Resume Builder:
