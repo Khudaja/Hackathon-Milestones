@@ -15,8 +15,8 @@ The Shareable Resume Builder is a web application that allows users to create an
 
 ## Technologies Used
 
-TypeScript: Ensures type safety and efficient code management for dynamic interactions.
+**TypeScript:** Ensures type safety and efficient code management for dynamic interactions.
 
-HTML: Structures the resume form and generated content.
+**HTML:** Structures the resume form and generated content.
 
-CSS: Styles the form, resume display, and overall UI.
+**CSS:** Styles the form, resume display, and overall UI.
