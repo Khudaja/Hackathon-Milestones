@@ -1,4 +1,5 @@
-#Editable Resume Builder
+# Editable Resume Builder
+
 This project is an **Editable** **Resume** **Builder** created using **TypeScript**, **HTML**, and **CSS**. It allows users to generate a resume dynamically and make edits directly in the resume content, providing an interactive and customizable experience.
 
 ## Features
