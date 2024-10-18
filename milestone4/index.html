@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Editable Resume Builder</h1>
+    <form id="resume-form">
+        <fieldset>
+            <legend> Personal Information </legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder=" Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder=" Enter your Email" required>
+
+            <label for="phonenumber">Phone Number:</label>
+            <input type="number" id="phonenumber" placeholder=" Enter your phone number" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder=" Enter your location" required>
+           
+        </fieldset>
+
+        <fieldset>
+            <legend> About </legend>
+            <label for="about"> About </label>
+            <textarea id="about" placeholder="Enter about yourself" rows="5" required></textarea>
+            <div class="seperator"></div>
+        </fieldset>
+    
+        <fieldset>
+            <legend> Education </legend>
+            <label for="education"> Education </label>
+            <textarea id="education" placeholder="Enter your Education" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend> Experience </legend>
+            <label for="experience"> Exprience </label>
+            <textarea id="experience" placeholder="Enter your  work Experience" rows="4" required></textarea>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend> Skills </legend>
+            <label for="skills"> Skills </label>
+            <textarea id="skills" placeholder="Enter your Skills" rows="4" required></textarea>
+        </fieldset>
+
+        <button type="submit"><b> Generate Resume </b></button>
+    </form>
+
+    <br>
+
+    <!-- Dynamic  & Editable Resume -->
+     <div id="resume-display" contenteditable="true">
+        <!-- Resume will be generated -->
+     </div>
+     <!-- we use script because we have to attach our typescript file to html -->
+     <script src="script.js"></script>
+
+</body>
+</html>
